@@ -134,6 +134,12 @@
       <Version>1.1.18</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrazyMonkey\CrazyMonkey.csproj">
+      <Project>{68aaf698-9bd4-480a-bf04-4d578da02149}</Project>
+      <Name>CrazyMonkey</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

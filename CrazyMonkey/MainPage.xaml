@@ -5,9 +5,29 @@
     xmlns:local="using:CrazyMonkey"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Height="723" Width="1065">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.487,0.366" Margin="10,10,40,39">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="23*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Add Monkey" HorizontalAlignment="Left" Margin="110,4,0,0" VerticalAlignment="Top" Height="41" Width="128" Background="#33D3932F"/>
+        <Button Content="Add Monkey" HorizontalAlignment="Left" Margin="727,4,0,0" VerticalAlignment="Top" Height="41" Width="128" Background="#33D3932F"/>
+        <Border BorderBrush="Black" BorderThickness="1,8,8,1" HorizontalAlignment="Left" Height="394" VerticalAlignment="Top" Width="375" Margin="12,224,0,0" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="8,8,1,1" HorizontalAlignment="Left" Height="394" Margin="600,224,0,0" VerticalAlignment="Top" Width="375" Grid.RowSpan="2"/>
+        <Border BorderThickness="1,12,1,0" HorizontalAlignment="Left" Height="246" Margin="387,224,0,0" VerticalAlignment="Top" Width="213" BorderBrush="#FF894040" Grid.RowSpan="2"/>
+        <Image x:Name="RopeLeftMonkey" Source="/Assets/monkey.PNG" HorizontalAlignment="Left" Height="61" Margin="399,163,0,0" VerticalAlignment="Top" Width="50"/>
+        <Image x:Name="RopeCenterMonkey" Source="/Assets/monkey.PNG" HorizontalAlignment="Left" Height="61" Margin="473,163,0,0" VerticalAlignment="Top" Width="50"/>
+        <Image x:Name="RopeRightMonkey" Source="/Assets/monkey.PNG" HorizontalAlignment="Left" Height="61" Margin="537,163,0,0" VerticalAlignment="Top" Width="50"/>
+        <Image x:Name="Right_8" Source="/Assets/monkey.PNG" HorizontalAlignment="Left" Height="61" Margin="783,48,0,0" VerticalAlignment="Top" Width="51"/>
+        <Image x:Name="Left_8" Source="/Assets/monkey.PNG" HorizontalAlignment="Left" Height="61" Margin="130,48,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="LeftCount" HorizontalAlignment="Left" Height="61" Margin="183,48,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" Width="64" FontSize="36" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="RightCount" HorizontalAlignment="Left" Height="59" Margin="727,45,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" Width="31" BorderBrush="{x:Null}" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="79" Margin="317,19,0,0" TextWrapping="Wrap" Text="Monkeys Crossing a Rope" VerticalAlignment="Top" Width="363" FontSize="22" FontFamily="Snap ITC"  Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Image x:Name="RightArrow" Source="/Assets/RightArrow.png" HorizontalAlignment="Left" Height="46" Margin="387,112,0,0" VerticalAlignment="Top" Width="82"/>
+        <Image x:Name="LeftArrow" Source="/Assets/LeftArrow.png" HorizontalAlignment="Left" Height="49" Margin="523,114,0,0" VerticalAlignment="Top" Width="79"/>
+        <Image Source="/Assets/Aligators.png" HorizontalAlignment="Left" Margin="392,277,0,56" Grid.Row="1" Width="213"/>
 
     </Grid>
 </Page>
