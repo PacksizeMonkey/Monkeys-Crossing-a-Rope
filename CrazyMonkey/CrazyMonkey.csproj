@@ -111,6 +111,7 @@
     <Content Include="Assets\LeftArrow.PNG" />
     <Content Include="Assets\monkey.PNG" />
     <Content Include="Assets\RightArrow.PNG" />
+    <Content Include="Assets\Square71x71Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
